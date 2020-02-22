@@ -8,9 +8,9 @@ module.exports = function countCats(matrix) {
     let count = 0;
     
     arr.forEach(element => {
-    if (element === "^^") {
-      count++
-    }
+      if (element === "^^") {
+        count++
+      }
     });
 
     return count;
