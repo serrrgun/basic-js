@@ -15,7 +15,6 @@ module.exports = function repeater(str, options) {
   }
   const newAddition = `${addition}${additionSeparator}`.repeat(additionRepeatTimes).slice(0, -additionSeparator.length);
   
-  console.log(newAddition)
   const newStr = `${str}${newAddition}${separator}`.repeat(count).slice(0, -separator.length)
   
   return newStr
